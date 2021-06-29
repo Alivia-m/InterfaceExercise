@@ -6,6 +6,18 @@ namespace InterfaceExercise
     {
         static void Main(string[] args)
         {
+            var car = new Car();
+            var truck = new Truck();
+            var suv = new Suv();
+
+            suv.CompanyName = "Cadillac";
+            suv.Logo = "wreath and crest";
+
+            truck.NumberOfWheels = 4;
+            truck.NumberOfSeats = 5;
+
+            car.TrunkSize = 16.7;
+            car.NumberOfCupHolders = 4;
             //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
 
             //Create 2 Interfaces called IVehicle & ICompany
